@@ -1,0 +1,60 @@
+# Python Style Guide
+
+## Naming Conventions
+
+- Use lowercase letters and underscores for variable and function names.
+- Use CamelCase for class names.
+- Use uppercase letters for constants.
+
+## Indentation
+
+- Use 4 spaces for indentation.
+- Do not use tabs for indentation.
+
+## Line Length
+
+- Limit lines to a maximum of 79 characters.
+- Break long lines using parentheses or backslashes.
+
+## Comments
+
+- Use `#` for single-line comments.
+- Use `""" """` for multi-line comments.
+
+## Imports
+
+- Import modules on separate lines.
+- Group imports in the following order: standard library imports, third-party imports, local imports.
+
+## Function Definitions
+
+- Use lowercase letters and underscores for function names.
+- Use a space after the function name and before the opening parenthesis.
+- Use a space before and after the equals sign when specifying default parameter values.
+
+## Class Definitions
+
+- Use CamelCase for class names.
+- Use a space after the class name and before the opening parenthesis.
+
+## String Formatting
+
+- Use f-strings for string interpolation.
+- Use `.format()` for more complex string formatting.
+
+## Error Handling
+
+- Use `try-except` blocks for handling exceptions.
+- Be specific when catching exceptions.
+
+## File Handling
+
+- Use `with` statement for opening and closing files.
+- Use `os.path` module for file path operations.
+
+## Miscellaneous
+
+- Use descriptive variable and function names.
+- Avoid using single-letter variable names.
+- Use meaningful comments to explain code logic.
+- Follow the PEP 8 style guide for Python code.
