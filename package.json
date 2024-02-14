@@ -1,0 +1,36 @@
+{
+    "name": "copilot-coding-style-guide-plugin",
+    "displayName": "Coding Style Guide",
+    "version": "0.1.0",
+    "description": "A VS Code Plugin that applies coding style guides to a given project",
+    "publisher": "Frank Bergschneider",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.applyStyleGuide"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.applyStyleGuide",
+                "title": "Apply Coding Style Guide"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^4.4.3",
+        "@types/node": "^16.9.6",
+        "vscode": "^1.4.0"
+    }
+}
